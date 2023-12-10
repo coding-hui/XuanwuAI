@@ -10,6 +10,8 @@ from xuanwuai.llms.base import (
     LLMMetadata,
     MessageRole,
 )
+from xuanwuai.llms.custom import CustomLLM
+from xuanwuai.llms.mock import MockLLM
 from xuanwuai.llms.openai import OpenAI
 
 __all__ = [
@@ -24,4 +26,6 @@ __all__ = [
     "LLMMetadata",
     "MessageRole",
     "OpenAI",
+    "CustomLLM",
+    "MockLLM",
 ]
