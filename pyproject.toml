@@ -35,7 +35,7 @@ deprecated = ">=1.2.9.3"
 tenacity = ">=8.2.0,<9.0.0"
 
 [tool.poetry.group.dev.dependencies]
-black = {extras = ["jupyter"], version = "<=23.9.1,>=23.7.0"}
+black = {extras = ["jupyter"], version = ">=23.7.0,<=24.3.0"}
 codespell = {extras = ["toml"], version = ">=v2.2.6"}
 jupyter = "^1.0.0"
 mypy = "0.991"
